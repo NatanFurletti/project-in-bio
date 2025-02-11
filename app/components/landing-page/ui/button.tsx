@@ -5,7 +5,7 @@ export default function Button({
   variant = "primary",
   ...props
 }: {
-  chiledren: React.ReactNode;
+  children: React.ReactNode;
   variant?: "primary" | "secondary" | "ghost";
 } & React.ButtonHTMLAttributes<HTMLButtonElement>) {
   return (
