@@ -2,6 +2,7 @@ import TextInput from "./ui/text-input";
 import UserCard from "../components/commons/user-card";
 import Button from "../landing-page/ui/button";
 import { TotalVisits } from "../components/commons/total-visits";
+import ProjectCard from "../components/commons/project-card";
 
 export default function Hero() {
   return (
@@ -28,10 +29,10 @@ export default function Hero() {
             <TotalVisits />
           </div>
           <div className="absolute top-[20%] -left-[45%] -z-10">
-            {/* <ProjectCard /> */}
+            <ProjectCard />
           </div>
           <div className="absolute -top-[5%] -left-[55%] -z-10">
-            {/* <ProjectCard /> */}
+            <ProjectCard />
           </div>
         </div>
       </div>
